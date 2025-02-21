@@ -40,6 +40,13 @@ Skipping directory non-git-folder/ - not a git repository
 Pulling in ProjectB on branch develop
 Updating a1b2c3d..d4e5f6
 ```
+## Updates
+
+To istall new updates run the following
+
+```bash
+gh extension upgrade tkachenko0/gh-pullmaster
+```
 
 ## 📚 More Information
 
