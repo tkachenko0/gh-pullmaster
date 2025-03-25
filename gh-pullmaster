@@ -26,8 +26,6 @@ for dir in */ ; do
                 echo -e "Pulling in ${BLUE}${repo_name}${NC} on branch ${GREEN}${branch_name}${NC}"
                 git pull  # Perform git pull
             fi
-        else
-            echo "Skipping directory $dir - not a git repository"
         fi
         cd ..  # Return to the parent directory
     fi
